@@ -202,3 +202,11 @@ git config --global
 #### ワーキングディレクトリから圧縮ファイル作成(`git archive`)
 
 + `-l`で圧縮方法確認
+
+#### 作業内容を一時退避
++ `git stash`
++ `git stash list`
++ `git stash apply stash@{<number>}`
+
+#### add取り消し
++ `git reset`
