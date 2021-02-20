@@ -15,10 +15,12 @@ int main()
 
     a = (float*)malloc(sizeof(float) * N);
     b = (float*)malloc(sizeof(float) * N);
+    out = (float*)malloc(sizeof(float) * N);
     for( int i = 0 ; i < N ; i++ )
     {
         a[i] = i*1.1;
         b[i] = N*0.6-i;
+        out[i] = 0.0;
     }
     cudaMalloc((void**)&cuda_a, sizeof(float) * N);
     cudaMemcpy(cuda_a, a, sizeof(float) * N, cudaMemcpyHostToDevice);
