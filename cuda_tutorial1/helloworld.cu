@@ -1,7 +1,7 @@
-#include <iostream>
+#include <stdio.h>
 __global__ void hello()
 {
-  std::cout << "Hello World from GPU!" << std::endl;
+  printf("Hello World from GPU!");
 }
 
 int main()
