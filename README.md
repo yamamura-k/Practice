@@ -7,6 +7,8 @@ tutorialは[ここ](https://cuda-tutorial.readthedocs.io/en/latest/)から取っ
     cudaを使ったhello worldと二つのベクトルの和を計算するプログラム。
   + hello world は何も表示されません、、
   + ベクトルの和については並列化してないので遅いです。
++ cuda_tutorial2
+  + tutorial1のベクトル計算並列化版
 + cuda_tutorial.ipynb
   ノートブックからcudaで書いたプログラムを動かす一例を書いてます。\
   より良い方法があれば改訂してもらって大丈夫です。
