@@ -15,7 +15,7 @@ __global__ void add_vector(float *out, float *a, float *b, int n)
 
 int main()
 {
-    const int N = 10;
+    const int N = 100000;
     float *a, *b, *out;
     float *cuda_a, *cuda_b, *cuda_out;
 
